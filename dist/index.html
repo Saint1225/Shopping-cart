@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Shopping Cart</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="menu">
+  <h3>Buy Buy Buy</h3>
+  <ul>
+    <li>Benz</li>
+    <li>BMW</li>
+    <li>Audi</li>
+  </ul><a class="face" href="https://www.facebook.com/" target="_blank"><img class="faceimg" src="https://www.transparentpng.com/thumb/facebook-logo-png/facebook-logo-free-download-transparent-3.png" alt="Facebook"/></a><a class="twit" href="https://twitter.com/?lang=zh-tw" target="_blank"><img class="twitimg" src="https://www.transparentpng.com/thumb/twitter/twitter-style-icons-png-6.png" alt=""/></a><a class="ig" href="https://www.instagram.com/" target="_blank"><img class="igimg" src="https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png" alt=""/></a>
+</div>
+<div class="additem">
+  <h5>Item:</h5>
+  <input class="addname" placeholder="Name..."/>
+  <h5>Price:</h5>
+  <input class="addprice" placeholder="Price..."/>
+  <h5>Quantity:</h5>
+  <input class="addqty" placeholder="Quantity..."/>
+  <button class="add">Add</button>
+</div>
+<div class="banner">
+  <h2>Shopping Cart</h2>
+</div>
+<div class="shoplist">
+  <ul>
+    <li class="p">Price</li>
+    <li class="q">Quantity</li>
+  </ul>
+  <div id="items"></div>
+  <div id="total"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

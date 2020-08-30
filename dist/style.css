@@ -1,0 +1,166 @@
+* {
+  font-family: "MuseoModerno", cursive;
+  position: relative;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  background-color: #f5f5ff;
+}
+
+.menu {
+  width: 100%;
+  background-color: #ccc;
+  text-align: center;
+}
+.menu h3 {
+  display: inline-block;
+  margin: 30px;
+  font-size: 30px;
+}
+.menu ul {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7%;
+}
+.menu ul li {
+  float: left;
+  padding: 0px 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+.menu a img {
+  vertical-align: middle;
+  width: 50px;
+  height: auto;
+  margin-left: 1%;
+  background: transparent;
+}
+.menu a .faceimg {
+  width: 30px;
+}
+.menu a .twitimg {
+  width: 32px;
+}
+.menu a .igimg {
+  width: 28px;
+}
+
+.additem, .banner, .shoplist {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.additem {
+  width: 100%;
+  background-color: rgba(0, 0, 200, 0.5);
+  text-align: center;
+}
+.additem h5, .additem input {
+  display: inline-block;
+}
+.additem h5 {
+  margin-left: 10px;
+  margin-right: 2px;
+  font-size: 16px;
+}
+.additem input {
+  border-radius: 5px;
+  border: none;
+  width: 20%;
+}
+.additem .add {
+  border-radius: 5px;
+  border: solid 1px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.additem .add:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.banner {
+  background-color: #999;
+  border-radius: 5px;
+}
+.banner h2 {
+  margin: 60px;
+  font-size: 30px;
+}
+
+.shoplist ul {
+  list-style: none;
+  height: 30px;
+  margin: 0;
+}
+.shoplist ul li {
+  display: inline-block;
+  position: absolute;
+}
+.shoplist ul .p {
+  right: 25%;
+}
+.shoplist ul .q {
+  right: 10%;
+}
+
+#items .item_block {
+  display: block;
+  border: solid 2px black;
+  margin: 5px;
+  height: 60px;
+  border-radius: 5px;
+}
+#items .item_block .item, #items .item_block .remove {
+  top: 20px;
+  display: inline-block;
+  position: absolute;
+}
+#items .item_block .id {
+  left: 20px;
+}
+#items .item_block .itemname {
+  width: 100px;
+  left: 5%;
+}
+#items .item_block .itemname .remark {
+  font-size: 14px;
+  color: #777;
+}
+#items .item_block .price {
+  right: 24%;
+}
+#items .item_block .qty {
+  right: 13%;
+}
+#items .item_block .remove {
+  right: 3%;
+  padding: 0px 4px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #c1cde3;
+  border-radius: 5px;
+}
+#items .item_block .remove:hover {
+  background-color: #ff2626;
+  color: #fff;
+}
+
+#total {
+  padding: 20px;
+}
+#total h3, #total .totalprice {
+  position: absolute;
+}
+#total h3 {
+  right: 40%;
+  margin: 0;
+}
+#total .totalprice {
+  right: 24%;
+  background-color: #fcf003;
+}

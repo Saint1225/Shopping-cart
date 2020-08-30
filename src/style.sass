@@ -1,0 +1,134 @@
+*
+  // border: solid 1px black
+  font-family: 'MuseoModerno', cursive
+  position: relative
+html, body
+  margin: 0
+  width: 100%
+  background-color: #f5f5ff
+  // width: 1024px
+.menu
+  width: 100%
+  background-color: #ccc
+  text-align: center
+  h3
+    display: inline-block
+    margin: 30px
+    font-size: 30px
+  ul
+    list-style: none
+    display: inline-block
+    vertical-align: middle
+    margin-left: 7%
+    li
+      float: left
+      padding: 0px 10px
+      margin: 20px
+      cursor: pointer
+  a
+    img
+      vertical-align: middle
+      width: 50px
+      height: auto
+      margin-left: 1%
+      background: transparent
+    .faceimg
+      width: 30px
+    .twitimg
+      width: 32px
+    .igimg
+      width: 28px
+.additem, .banner, .shoplist
+  width: 1024px
+  margin-left: auto
+  margin-right: auto
+.additem
+  width: 100%
+  background-color: rgba(0,0,200,0.5)
+  text-align: center
+  h5, input
+    display: inline-block
+  h5
+    margin-left: 10px
+    margin-right: 2px
+    font-size: 16px
+  input
+    border-radius: 5px
+    border: none
+    width: 20%
+  .add
+    border-radius: 5px
+    border: solid 1px
+    cursor: pointer
+    margin-left: 10px
+    &:hover
+      background-color: #555
+      color: #fff
+.banner
+  background-color: #999
+  border-radius: 5px
+  h2
+    margin: 60px
+    font-size: 30px
+    
+.shoplist
+  ul
+    list-style: none
+    height: 30px
+    margin: 0
+    li
+      display: inline-block
+      position: absolute
+      // padding: 0px 50px
+      // left: 60%
+    .p
+      right: 25%
+    .q
+      right: 10%
+#items
+  // border: solid 2px red
+  .item_block
+    display: block
+    border: solid 2px black
+    margin: 5px
+    height: 60px
+    border-radius: 5px
+    .item, .remove
+      top: 20px
+      display: inline-block
+      position: absolute
+    .id
+      left: 20px
+    .itemname
+      width: 100px
+      left: 5%
+      .remark
+        font-size: 14px
+        color: #777
+    .price
+      right: 24%
+    .qty
+      right: 13%
+    .remove
+      right: 3%
+      padding: 0px 4px
+      font-size: 14px
+      cursor: pointer
+      background-color: #c1cde3
+      border-radius: 5px
+      &:hover
+        background-color: #ff2626
+        color: #fff
+      
+#total
+  padding: 20px
+  h3, .totalprice
+    position: absolute
+  h3
+    right: 40%
+    // top: 0%
+    margin: 0
+  .totalprice
+    right: 24%
+    background-color: #fcf003
+    // top: 0%
