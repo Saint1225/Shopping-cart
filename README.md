@@ -9,4 +9,4 @@ CodePen URL: https://codepen.io/vincent1225/full/xxZWRYd
 
 ## Snapshot
 
-![Shopping-Cart](https://github.com/Saint1225/Shopping-Cart/blob/master/Shopping%20Cart.png)
+![Shopping-Cart](https://github.com/Saint1225/Shopping-Cart/blob/master/Shopping-Cart.png)
