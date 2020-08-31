@@ -1,4 +1,4 @@
-# Shopping-Cart
+# Shopping-cart
 
 Interactive shopping list with item adding/removing function and total amount calculation.
 
