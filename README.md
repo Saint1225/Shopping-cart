@@ -1,6 +1,6 @@
 # Shopping-cart
 
-Interactive shopping list with item adding/removing function and total amount calculation.
+Interactive shopping list with item adding/removing feature and total amount calculation
 
 HTML(pug) / CSS(SASS) / JavaScript(jQuery)
 
